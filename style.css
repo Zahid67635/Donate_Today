@@ -1,5 +1,5 @@
 .headlines{
-    color: white;
+    color: rgb(19, 225, 115);
     text-align: center;
     font-size: 50px;
     font-family: 'Poppins', sans-serif;
@@ -12,12 +12,13 @@ h3{
     background: rgba(237, 232, 232, 0.1);
     padding: 10px 10px;
 }
-section{
-    width: 80%;
-    height: 60%;
-    padding: 200px 156px;
-    background-image: url("/images/donation12.png"); 
-    background-repeat: no-repeat;   
+.container{
+    width:68%;
+    height: 100%;
+    padding: 220px 256px;
+    background-image: url("/images/donation9.jpg"); 
+    background-repeat: no-repeat; 
+    background-size: cover;  
 }
 body{
     margin: 0;
@@ -33,5 +34,44 @@ button{
     font-size: 16px;
     margin-left: 45%;
     cursor: pointer;
+    margin-top: 15px;
 
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20% ;
+
+}
+.money{
+    padding: 10px 10px 10px 10px;
+    color:black;
+    background-color: rgba(128, 128, 128, 0.237);
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    margin-left: 40px;
+    margin-bottom: 20px;
+
+    
+}
+.money:hover{
+    background-color: orange;
+}
+
+.Donate_money{
+    display: flex;
+    margin-left: 35%
+}
+.input_amount{
+    margin-left: 35%;
+    padding: 5px 5px;
+    width: 400px;
+    height: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
