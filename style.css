@@ -15,9 +15,8 @@ h3{
 .container{
     width:68%;
     height: 100%;
-    padding: 220px 256px;
-    background-image: url("/images/donation13.png"); 
-    background-image: url("/images/donation0.jpg"); 
+    padding: 220px 256px; 
+    background-image: url("./images/donation0.jpg"); 
     background-repeat: no-repeat; 
     background-size: cover;  
 }
