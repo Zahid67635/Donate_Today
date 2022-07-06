@@ -16,11 +16,8 @@ h3{
     width:68%;
     height: 100%;
     padding: 220px 256px;
-<<<<<<< HEAD
     background-image: url("/images/donation13.png"); 
-=======
     background-image: url("/images/donation0.jpg"); 
->>>>>>> 1d0a8f0 (section 3)
     background-repeat: no-repeat; 
     background-size: cover;  
 }
@@ -100,3 +97,13 @@ section{
     font-family:'Poppins', sans-serif;
 }
 
+footer{
+    background-color: black;
+
+}
+.foot{
+    font-family:'Poppins', sans-serif;
+    text-align:center;
+    color: red;
+    padding: 10px 10px ;
+}
