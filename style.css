@@ -16,7 +16,11 @@ h3{
     width:68%;
     height: 100%;
     padding: 220px 256px;
+<<<<<<< HEAD
     background-image: url("/images/donation13.png"); 
+=======
+    background-image: url("/images/donation0.jpg"); 
+>>>>>>> 1d0a8f0 (section 3)
     background-repeat: no-repeat; 
     background-size: cover;  
 }
@@ -75,3 +79,24 @@ p{
     border-left: none;
     border-right: none;
 }
+
+.Donate_plan_details{
+    width: 320px;
+    margin: 20px;
+    padding: 50px 50px 20px 20px;
+    border-radius: 10px;
+    background-color: bisque;
+}
+.Donate_plan{
+    display: flex;
+    margin-left: 150px;
+}
+section{
+    padding-bottom: 10%;
+}
+#Donation_sec{
+    text-align: center;
+    font-size: 50px;
+    font-family:'Poppins', sans-serif;
+}
+
